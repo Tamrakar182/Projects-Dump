@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #ff7214;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ff7214;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
+}
+
+.bg-1 {
+  background-color: #f7f7f7;
+  padding-bottom: 55px;
+}
+
+.bg-1 span {
+  color: #ff7214;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bg-1 h2 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-1 p {
+  color: #888888;
+  font-size: 15px;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+  font-size: 30px;
+}
+
+.about {
+  padding: 150px 0;
+}
+
+.about-bg {
+  position: relative;
+}
+
+.about .aboutimg1 {
+  position: absolute;
+  max-width: 500px;
+  z-index: -1;
+}
+
+.about .aboutimg2 {
+  margin-top: 60px;
+}
+
+.about .aboutimg3 {
+  margin-top: -30px;
+}
+
+.about .workingex {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.block-content {
+  max-width: 540px;
+}
+
+.block-content span {
+  color: #ff7214;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.block-content h2 {
+  font-size: 42px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.block-content h5 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.block-content p {
+  color: #888;
+  padding-top: 20px;
+}
+
+.title span {
+  color: #ff7214;
+  text-transform: uppercase;
+  font-weight: 500px;
+}
+
+.title h2 {
+  font-size: 42px;
+}
+
+@media (max-width: 500px) {
+  .bg1 h2 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

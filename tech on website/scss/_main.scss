@@ -1,0 +1,133 @@
+body{
+    font-family: $rob;
+}
+
+img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:$pop;
+    font-weight:700;
+}
+
+.btn-primary{
+    background-color: $o;
+    color:$w;
+    border:none;
+    padding:15px 30px;
+    border-radius:25px;
+
+    &:hover{
+        background-color: $w;
+        color: $o;
+        box-shadow:0px 0px 10px #ccc;
+    }
+
+}
+
+.bg-1{
+    background-color: $bg;
+    padding-bottom:55px;
+
+    span{
+        color:$o;
+        font-size:18px;
+        font-weight: 400;
+    }
+    h2{
+        font-size:60px;
+        font-weight:bold;
+        font-family:$pop;
+
+    }
+    p{
+        color:#888888;
+        font-size:15px;
+    }
+}
+
+
+.navbar{
+
+
+.navbar-brand{
+    font-size:30px;
+    text-transform:capitalize;
+    font-family: $pop;
+    font-weight:bold;
+
+    span{
+        font-size:30px;
+    }
+}
+
+}
+
+.about{
+    padding:150px 0;
+    &-bg{
+        position: relative;
+    }
+    .aboutimg1{
+        position: absolute;
+        max-width: 500px;
+        z-index: -1;
+    }
+    .aboutimg2{
+      margin-top:60px;
+    }
+    .aboutimg3{
+        margin-top: -30px;
+    }
+    .workingex{
+        font-size:20px;
+        font-weight:800;
+    }
+}
+
+.block-content{
+    max-width: 540px;
+
+    span{
+        color:$o;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        display:block;
+    }
+    h2{
+        font-size:42px;
+        line-height:30px;
+        margin-bottom:25px;
+    }
+    h5{
+        font-weight:500;
+        font-size: 20px;
+    }
+    p{
+        color:#888;
+        padding-top: 20px;
+    }
+}
+
+.title{
+    span{
+        color:$o;
+        text-transform: uppercase;
+        font-weight:500px;
+    }
+    h2{
+        font-size:42px;
+    }
+}
+
+.features{
+    
+}
+
+@media(max-width:500px){
+    .bg1 h2{font-size: 40px;}
+}
